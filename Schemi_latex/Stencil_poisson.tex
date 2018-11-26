@@ -1,0 +1,27 @@
+%\documentclass[main.tex]{subfiles}
+%\begin{document}
+\newcommand{\lenx}{100}
+\newcommand{\leny}{100}
+
+\begin{picture}(\lenx,\leny)(0,0)
+%picture limit
+%\put(0,0){\line(1,0){\lenx}}
+%\put(0,0){\line(0,1){\leny}}
+%asse text
+\put(45,55){$u_{i,j}$}
+\put(50,50){\circle*{0.8}}
+\put(55,15){$u_{i-1,j}$}
+\put(50,10){\circle*{0.8}}
+\put(50,90){$u_{i+1,j}$}
+\put(50,90){\circle*{0.8}}
+\put(10,55){$u_{i,j-1}$}
+\put(10,50){\circle*{0.8}}
+\put(90,55){$u_{i,j+1}$}
+\put(90,50){\circle*{0.8}}
+
+\end{picture}
+%\caption{Lagrangian polynomial interpolation grid} 
+%\label{fig:LagIntgrid}
+%\bigskip
+
+%\end{document}
